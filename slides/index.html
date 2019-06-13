@@ -61,36 +61,76 @@
   <!--***************************************************************************-->
   <section>
     <h3>What <i class="red">is not</i> Golfing?</h3>
-    <ul>
-        <li class="fragment fade-in" data-fragment-index="1">...</li>
-        <li class="fragment fade-in" data-fragment-index="2">...</li>
-        <li class="fragment fade-in" data-fragment-index="3">...</li>
-    </ul>
   </section>
+  <section>
+    <h3>What <i class="red">is not</i> Golfing?</h3>
+    <img style="width: 70%;" src="img/golfcourse.png" />
+    <p style="font-size: 30%;">
+    Golf course in Klagenfurt-Seltenheim in the locality Seltenheim, 14th district “Woelfnitz” of the Carinthian capital Klagenfurt on the Lake Woerth, Carinthia, Austria
+    (Johann Jaritz - Own work)
+    </p>
+<!--    <ul>
+        <li class="fragment fade-in" data-fragment-index="1">Related to holes in a course/field</li>
+        <li class="fragment fade-in" data-fragment-index="2">Something one do with a <i class="blue">Volkswagen Golf</i> car</li>
+        <li class="fragment fade-in" data-fragment-index="3">A crazy <i class="blue">Go</i> language project.</li>
+        <li class="fragment fade-in" data-fragment-index="4">A club-and-ball sport (*)</li>
+    </ul>
+-->
+  </section>
+  <section>
+    <h3>What <i class="red">is not</i> Golfing?</h3>
+    <img style="width: 70%;" src="img/volkswagen.png" />
+    <p style="font-size: 30%;">
+    2017 Volkswagen Golf (5G MY17) 1.4 SE TSI hatchback
+    (Allie_Caulfield CC 2.0)
+    </p>
+  </section>
+
+  <section>
+    <h3>What <i class="red">is not</i> Golfing?</h3>
+    <img style="width: 70%;" src="img/golang.png" />
+    <p style="font-size: 30%;">
+    Gopher Mascot.
+    The mascot and logo were designed by Renée French, who also designed Glenda, the Plan 9 bunny. The gopher is derived from one she used for an WFMU T-shirt design some years ago. The logo and mascot are covered by the Creative Commons Attribution 3.0 license.
+    </p>
+  </section>
+
+  <section>
+    <h3>What <i class="red">is not</i> Golfing?</h3>
+    <img style="width: 60%;" src="img/golfer.png" />
+    <p style="font-size: 30%;">
+    A golfer taking a tee shot to begin a round of golf.
+    (Lilrizz - Personal Photo CC0)
+    </p>
+  </section>
+
   <!--***************************************************************************-->
   <section>
     <h3>What <i class="green">is</i> Golfing?</h3>
     <ul>
-        <li class="fragment fade-in" data-fragment-index="1">...</li>
-        <li class="fragment fade-in" data-fragment-index="2">...</li>
-        <li class="fragment fade-in" data-fragment-index="3">...</li>
+        <li class="fragment fade-in" data-fragment-index="1">Recreational programming competition</li>
+        <li class="fragment fade-in" data-fragment-index="2">Each key "stroke" counts</li>
+        <li class="fragment fade-in" data-fragment-index="3">Term from 1999 from Perl</li>
     </ul>
+  </section>
+
+  <section>
+    <h2><i class="red">WARNING</i></h2>
+    Don't use this code in production.
   </section>
   <!--***************************************************************************-->
   <section>
     <h3>The <i class="yellow">quine</i></h3>
 
     <p>
-    A quine is a non-empty computer program which takes <i class="blue">no input</i> and produces a <i class="blue">copy of its own source code</i> as its only output.
+    A quine is a <b>non-empty</b> computer program which takes <i class="blue">no input</i> and produces a <i class="blue">copy of its own source code</i> as its only output.
     </p>
   </section>
   <section>
     <h3>The <i class="yellow">quine</i></h3>
-    <pre style="font-size: 100%;width: 90%;">
-        <code class="python" data-trim data-noescape>
+    <pre style="font-size: 100%;width: 90%;"><code class="python" data-trim data-noescape>
         _="_=%r;print(_%%_)";print(_%_)
-        </code>
-    </pre>
+        </code></pre>
   </section>
 
   <section>
@@ -99,237 +139,190 @@
 
   <section>
     <h3>Multiple conditions</h3>
-    <pre class="fragment fade-in" data-fragment-index="1" style="font-size: 70%;width: 90%;">
-        <code class="python" data-trim data-noescape>
+    <pre class="fragment fade-in" data-fragment-index="1" style="font-size: 70%;width: 90%;"><code class="python" data-trim data-noescape>
         if i == 42 and j == "dog" and k == [1,2,3]:
             pass
-        </code>
-    </pre>
-    <pre class="fragment fade-in" data-fragment-index="2" style="font-size: 70%;width: 90%;">
-        <code class="python" data-trim data-noescape>
+        </code></pre>
+    <pre class="fragment fade-in" data-fragment-index="2" style="font-size: 70%;width: 90%;"><code class="python" data-trim data-noescape>
         if (i,j,k)==(42,"dog",[1,2,3]):
             pass
-        </code>
-    </pre>
+        </code></pre>
   </section>
 
 
   <section>
     <h3>if-else</h3>
-    <pre class="fragment fade-in" data-fragment-index="1" style="font-size: 70%;width: 90%;">
-        <code class="python" data-trim data-noescape>
+    <pre class="fragment fade-in" data-fragment-index="1" style="font-size: 70%;width: 90%;"><code class="hijs" data-trim data-noescape>
         if a&lt;b:
             return c
         else:
             return d
-        </code>
-    </pre>
-    <pre class="fragment fade-in" data-fragment-index="2" style="font-size: 70%;width: 90%;">
-        <code class="python" data-trim data-noescape>
+        </code></pre>
+    <pre class="fragment fade-in" data-fragment-index="2" style="font-size: 70%;width: 90%;"><code class="python" data-trim data-noescape>
         return(d,c)[a&lt;b]
-        </code>
-    </pre>
+        </code></pre>
   </section>
 
   <section>
     <h3>if and booleans</h3>
-    <pre class="fragment fade-in" data-fragment-index="1" style="font-size: 70%;width: 90%;">
-        <code class="python" data-trim data-noescape>
+    <pre class="fragment fade-in" data-fragment-index="1" style="font-size: 70%;width: 90%;"><code class="python" data-trim data-noescape>
         if a and b:
             pass
-        </code>
-    </pre>
-    <pre class="fragment fade-in" data-fragment-index="2" style="font-size: 70%;width: 90%;">
-        <code class="python" data-trim data-noescape>
+        </code></pre>
+    <pre class="fragment fade-in" data-fragment-index="2" style="font-size: 70%;width: 90%;"><code class="python" data-trim data-noescape>
         if a*b:
             pass
-        </code>
-    </pre>
+        </code></pre>
   </section>
 
 
   <section>
     <h3>nested dependant for</h3>
-    <pre class="fragment fade-in" data-fragment-index="1" style="font-size: 70%;width: 90%;">
-        <code class="python" data-trim data-noescape>
+    <pre class="fragment fade-in" data-fragment-index="1" style="font-size: 70%;width: 90%;"><code class="python" data-trim data-noescape>
         for i in range(m):
             for j in range(n):
                 do_stuff(i,j)
-        </code>
-    </pre>
-    <pre class="fragment fade-in" data-fragment-index="2" style="font-size: 70%;width: 90%;">
-        <code class="python" data-trim data-noescape>
+        </code></pre>
+    <pre class="fragment fade-in" data-fragment-index="2" style="font-size: 70%;width: 90%;"><code class="python" data-trim data-noescape>
         for k in range(m*n):
           do_stuff(k//n,k%n)
-        </code>
-    </pre>
+        </code></pre>
   </section>
 
   <section>
     <h3>Create lists</h3>
-    <pre class="fragment fade-in" data-fragment-index="1" style="font-size: 70%;width: 90%;">
-        <code class="python" data-trim data-noescape>
+    <pre class="fragment fade-in" data-fragment-index="1" style="font-size: 70%;width: 90%;"><code class="python" data-trim data-noescape>
         s=['a','b','c','d','e']
-        </code>
-    </pre>
-    <pre class="fragment fade-in" data-fragment-index="2" style="font-size: 70%;width: 90%;">
-        <code class="python" data-trim data-noescape>
+        </code></pre>
+    <pre class="fragment fade-in" data-fragment-index="2" style="font-size: 70%;width: 90%;"><code class="python" data-trim data-noescape>
         s=list('abcde')
-        </code>
-    </pre>
-    <pre class="fragment fade-in" data-fragment-index="3" style="font-size: 70%;width: 90%;">
-        <code class="python" data-trim data-noescape>
+        </code></pre>
+    <pre class="fragment fade-in" data-fragment-index="3" style="font-size: 70%;width: 90%;"><code class="python" data-trim data-noescape>
         *s,='abcde'
-        </code>
-    </pre>
+        </code></pre>
   </section>
 
   <section>
     <h3>Check types</h3>
-    <pre class="fragment fade-in" data-fragment-index="1" style="font-size: 70%;width: 90%;">
-        <code class="python" data-trim data-noescape>
+    <pre class="fragment fade-in" data-fragment-index="1" style="font-size: 70%;width: 90%;"><code class="python" data-trim data-noescape>
         # Check int, float, and str
-        </code>
-    </pre>
-    <pre class="fragment fade-in" data-fragment-index="2" style="font-size: 70%;width: 90%;">
-        <code class="python" data-trim data-noescape>
+        </code></pre>
+    <pre class="fragment fade-in" data-fragment-index="2" style="font-size: 70%;width: 90%;"><code class="python" data-trim data-noescape>
         x*0is 0
         x*0==0
         x*0==""
-        </code>
-    </pre>
+        </code></pre>
   </section>
 
   <section>
     <h3>Lookup table</h3>
-    <pre class="fragment fade-in" data-fragment-index="1" style="font-size: 70%;width: 90%;">
-        <code class="python" data-trim data-noescape>
+    <pre class="fragment fade-in" data-fragment-index="1" style="font-size: 70%;width: 90%;"><code class="python" data-trim data-noescape>
         # 0: False
         # 1: True
         # 2: True
         # 3: False
         # 4: True
-        </code>
-    </pre>
-    <pre class="fragment fade-in" data-fragment-index="2" style="font-size: 70%;width: 90%;">
-        <code class="python" data-trim data-noescape>
+        </code></pre>
+    <pre class="fragment fade-in" data-fragment-index="2" style="font-size: 70%;width: 90%;"><code class="python" data-trim data-noescape>
         0b10110
-        </code>
-    </pre>
-    <pre class="fragment fade-in" data-fragment-index="3" style="font-size: 70%;width: 90%;">
-        <code class="python" data-trim data-noescape>
+        </code></pre>
+    <pre class="fragment fade-in" data-fragment-index="3" style="font-size: 70%;width: 90%;"><code class="python" data-trim data-noescape>
         int("0b10110", 2) # 22
-        </code>
-    </pre>
-    <pre class="fragment fade-in" data-fragment-index="3" style="font-size: 70%;width: 90%;">
-        <code class="python" data-trim data-noescape>
+        </code></pre>
+    <pre class="fragment fade-in" data-fragment-index="4" style="font-size: 70%;width: 90%;"><code class="python" data-trim data-noescape>
         22&lt;&lt;i&amp;1
-        </code>
-    </pre>
+        </code></pre>
   </section>
 
   <section>
     <h3>Challenge #1</h3>
-    <pre class="fragment fade-in" data-fragment-index="1" style="font-size: 70%;width: 90%;">
-        <code class="python" data-trim data-noescape>
+    <pre class="fragment fade-in" data-fragment-index="1" style="font-size: 70%;width: 90%;"><code class="python" data-trim data-noescape>
         (n-1)/10+(n-1)%10
-        </code>
-    </pre>
-    <pre class="fragment fade-in" data-fragment-index="2" style="font-size: 70%;width: 90%;">
-        <code class="python" data-trim data-noescape>
+        </code></pre>
+    <pre class="fragment fade-in" data-fragment-index="2" style="font-size: 70%;width: 90%;"><code class="python" data-trim data-noescape>
         # ~x = -1-x
-        # ~0 = -1 -0 = -1
-        # ~1 = -1 -1 = -2
-        </code>
-    </pre>
-    <pre class="fragment fade-in" data-fragment-index="3" style="font-size: 70%;width: 90%;">
-        <code class="python" data-trim data-noescape>
+        </code></pre>
+    <pre class="fragment fade-in" data-fragment-index="3" style="font-size: 70%;width: 90%;"><code class="python" data-trim data-noescape>
         ~-n/10+~-n%10
-        </code>
-    </pre>
+        </code></pre>
   </section>
 
   <section>
     <h3>Challenge #2</h3>
-    <pre class="fragment fade-in" data-fragment-index="1" style="font-size: 70%;width: 90%;">
-        <code class="python" data-trim data-noescape>
+    <pre class="fragment fade-in" data-fragment-index="1" style="font-size: 70%;width: 90%;"><code class="python" data-trim data-noescape>
         # Check if a numer is a power of 2
-        </code>
-    </pre>
-    <pre class="fragment fade-in" data-fragment-index="2" style="font-size: 70%;width: 90%;">
-        <code class="python" data-trim data-noescape>
+        </code></pre>
+    <p class="fragment" data-fragment-index="2" style="font-size: 70%;width: 90%;">
+        $$ \log_{x}\ Y^Z = Z\ \log_{x} Y $$
+        </p>
+    <pre class="fragment fade-in" data-fragment-index="3" style="font-size: 70%;width: 90%;"><code class="python" data-trim data-noescape>
+        from math import log2, ceil, floor
+        ceil(log2(n)) == floor(log2(n))
+        </code></pre>
+    <pre class="fragment fade-in" data-fragment-index="4" style="font-size: 70%;width: 90%;"><code class="python" data-trim data-noescape>
         2**n%n==0
-        </code>
-    </pre>
-    <pre class="fragment fade-in" data-fragment-index="3" style="font-size: 70%;width: 90%;">
-        <code class="python" data-trim data-noescape>
+        </code></pre>
+    <pre class="fragment fade-in" data-fragment-index="5" style="font-size: 70%;width: 90%;"><code class="python" data-trim data-noescape>
         2**n%n&lt;1
-        </code>
-    </pre>
-    <pre class="fragment fade-in" data-fragment-index="4" style="font-size: 70%;width: 90%;">
-        <code class="python" data-trim data-noescape>
+        </code></pre>
+    <pre class="fragment fade-in" data-fragment-index="6" style="font-size: 70%;width: 90%;"><code class="python" data-trim data-noescape>
         n&amp;~-n&lt;1
-        </code>
-    </pre>
+        </code></pre>
   </section>
 
   <section>
     <h3>Reverse Challenge #3</h3>
     <div id="left">
-        <li>"g" | 0</li>
-        <li>"k" | 0</li>
-        <li>"pq" | 1</li>
-        <li>"lol" | 1</li>
-        <li>"test" | 4</li>
-        <li>"abcdef" | 9</li>
-        <li>"abcmmmmmmmmm" | 36</li>
-        <li>"abccfghjnmkjtdefty" | 81</li>
+    <pre class="fragment fade-in" data-fragment-index="1" style="font-size: 65%;width: 100%;"><code class="python" data-trim data-noescape>
+        # "g" | 0</li>
+        # "k" | 0</li>
+        # "pq" | 1</li>
+        # "lol" | 1</li>
+        # "test" | 4</li>
+        # "abcdef" | 9</li>
+        # "abcmmmmmmmmm" | 36</li>
+        # "abccfghjnmkjtdefty" | 81</li>
+        </code></pre>
     </div>
     <div id="right">
-    <pre class="fragment fade-in" data-fragment-index="1" style="font-size: 70%;width: 90%;">
-        <code class="python" data-trim data-noescape>
+    <pre class="fragment fade-in" data-fragment-index="2" style="font-size: 60%;width: 90%;"><code class="python" data-trim data-noescape>
         def f(x):
             return (len(x)//2)**2
-        </code>
-    </pre>
-    <pre class="fragment fade-in" data-fragment-index="2" style="font-size: 70%;width: 90%;">
-        <code class="python" data-trim data-noescape>
-        f = lambda: (len(x)//2)**2
-        </code>
-    </pre>
+        </code></pre>
+    <pre class="fragment fade-in" data-fragment-index="3" style="font-size: 60%;width: 90%;"><code class="python" data-trim data-noescape>
+        f = lambda x: (len(x)//2)**2
+        </code></pre>
     </div>
   </section>
 
   <section>
     <h3>Challenge #4</h3>
-    <div id="left">
-        For abit = "0.116101115116035049", the output should be
+    <pre class="fragment fade-in" data-fragment-index="1" style="font-size: 60%;width: 100%;"><code class="python" data-trim data-noescape>
+        abit = "0.116101115116035049"
         alienBit(abit) = "test#1".
 
         The alien bit can be split into 6 ASCII symbols:
 
-        116 -&lt; 't'
-        101 -&lt; 'e'
-        115 -&lt; 's'
-        116 -&lt; 't'
-         35 -&lt; '#'
-         49 -&lt; '1'
+        116 -&gt; 't'
+        101 -&gt; 'e'
+        115 -&gt; 's'
+        116 -&gt; 't'
+         35 -&gt; '#'
+         49 -&gt; '1'
+        </code></pre>
+    <pre class="fragment fade-in" data-fragment-index="2" style="font-size: 60%;width: 100%;"><code class="python" data-trim data-noescape>
+        alienBit = lambda a: "".join(chr(int(a[i:i+3]))
+            for i in range(2,len(a),3))
+        </code></pre>
+    <pre class="fragment fade-in" data-fragment-index="3" style="font-size: 60%;width: 100%;"><code class="python" data-trim data-noescape>
+        # CodeSignal (cifko)
+        F = alienBit = lambda A:A[2:] and chr(int(A[2:5]))+F(A[3:])
+        </code></pre>
+  </section>
 
-        Thus, this alien transmission contains the message "test#1".
-    </div>
-    <div id="right">
-    <pre class="fragment fade-in" data-fragment-index="1" style="font-size: 70%;width: 90%;">
-        <code class="python" data-trim data-noescape>
-        def f(x):
-            return (len(x)//2)**2
-        </code>
-    </pre>
-    <pre class="fragment fade-in" data-fragment-index="2" style="font-size: 70%;width: 90%;">
-        <code class="python" data-trim data-noescape>
-        f = lambda: (len(x)//2)**2
-        </code>
-    </pre>
-    </div>
+  <section>
+    <h3>Challenge #5</h3>
+    bitLXOR
   </section>
 
   <section>
@@ -342,60 +335,57 @@
   <section>
     <h3>Pyth</h3>
     <ul>
-        <li>An official golfing language</li>
-        <li>JIT compiled language</li>
-        <li><a href="https://pyth.readthedocs.io">pyth.readthedocs.io</a></li>
-        <li>Uses prefix notation: 2+2 is +2 2</li>
-        <li>Operators (+, -, *, /, %)</li>
-        <li>Negative numbers: -4 needs to be _4</li>
-        <li>Pre defined variables: Z=0, T=10, k="", d=" ", b="\n"</li>
+        <li class="fragment fade-in" data-fragment-index="1">An official golfing language <a href="https://pyth.readthedocs.io">pyth.readthedocs.io</a></li>
+        <li class="fragment fade-in" data-fragment-index="2">JIT compiled language</li>
+        <li class="fragment fade-in" data-fragment-index="3">Uses prefix notation: <i class="blue">2+2</i> will be  <i class="yellow">+2 2</i></li>
+        <li class="fragment fade-in" data-fragment-index="4">Operators (+, -, *, /, %)</li>
+        <li class="fragment fade-in" data-fragment-index="5">Negative numbers: <i class="blue">-4</i> needs to be <i class="yellow">_4</i></li>
+        <li class="fragment fade-in" data-fragment-index="6">Pre defined variables:</li>
+        <pre class="fragment fade-in" data-fragment-index="6" style="font-size: 60%;width: 100%;"><code class="python" data-trim data-noescape>
+        Z=0
+        T=10
+        k=""
+        d=" "
+        b="\n"
+        </code></pre>
     </ul>
   </section>
 
   <section>
     <h3>For loop</h3>
     <div id="left">
-    <pre class="fragment fade-in" data-fragment-index="1" style="font-size: 70%;width: 90%;">
-        <code class="python" data-trim data-noescape>
+    Print numbers from 0 to N.
+    <pre class="fragment fade-in" data-fragment-index="1" style="font-size: 70%;width: 90%;"><code class="python" data-trim data-noescape>
         FNrZTN
-        </code>
-    </pre>
-    <pre class="fragment fade-in" data-fragment-index="2" style="font-size: 70%;width: 90%;">
-        <code class="python" data-trim data-noescape>
-        </code>
-    </pre>
+        </code></pre>
     </div>
     <div id="right">
         <ul>
-            <li>F: for loop</li>
-            <li>N: iterator</li>
-            <li>r: range()</li>
-            <li>Z: 0</li>
-            <li>T: range limit</li>
-            <li>N: variable to print</li>
+            <li class="fragment fade-in" data-fragment-index="2">F: for loop</li>
+            <li class="fragment fade-in" data-fragment-index="3">N: iterator</li>
+            <li class="fragment fade-in" data-fragment-index="4">r: range()</li>
+            <li class="fragment fade-in" data-fragment-index="5">Z: 0</li>
+            <li class="fragment fade-in" data-fragment-index="6">T: range limit</li>
+            <li class="fragment fade-in" data-fragment-index="7">N: variable to print</li>
         </ul>
     </div>
   </section>
 
   <section>
     <h3>Fibonacci</h3>
-    <div id="left">
-    <pre class="fragment fade-in" data-fragment-index="1" style="font-size: 70%;width: 90%;">
-        <code class="python" data-trim data-noescape>
+    <div id="left30">
+    <pre class="fragment fade-in" data-fragment-index="1" style="font-size: 60%;width: 100%;"><code class="python" data-trim data-noescape>
         K1FNr1hQ=K*KN;K
-        </code>
-    </pre>
+        </code></pre>
     </div>
-    <div id="right">
-    <pre class="fragment fade-in" data-fragment-index="2" style="font-size: 70%;width: 90%;">
-        <code class="python" data-trim data-noescape>
+    <div id="right70">
+    <pre class="fragment fade-in" data-fragment-index="2" style="font-size: 70%;width: 90%;"><code class="python" data-trim data-noescape>
         Q=copy(literal_eval(input()))
         K=1
         for N in Prange(1,head(Q)):
          K=copy(times(K,N))
         Pprint("\n",K)
-        </code>
-    </pre>
+        </code></pre>
     </div>
   </section>
 
@@ -406,201 +396,184 @@
   <section>
     <h3>Dad jokes</h3>
     <ul>
-        <li>Input: "I'm amazing"</li>
-        <li>Output: "Hi amazing, I'm _!" (Language)</li>
-        <li>https://codegolf.stackexchange.com/questions/185872/dad-jokes-are-fun</li>
+        <li><i class="blue">Input:</i> "I'm amazing"</li>
+        <li><i class="yellow">Output:</i> "Hi amazing, I'm LANG!"</li>
+        <li style="font-size: 80%;">Source: <a href="https://codegolf.stackexchange.com/questions/185872/dad-jokes-are-fun">codegolf.stackexchange.com/questions/185872/dad-jokes-are-fun</a></li>
     </ul>
   </section>
 
   <section>
     <h3>Python 3</h3>
-    <pre class="fragment fade-in" data-fragment-index="2" style="font-size: 70%;width: 90%;">
-        <code class="python" data-trim data-noescape>
+    <pre class="fragment fade-in" data-fragment-index="2" style="font-size: 70%;width: 100%;"><code class="python" data-trim data-noescape>
         lambda s:f"Hi{s[3:]}, I'm Python!"
-        </code>
-    </pre>
+        </code></pre>
     (Author: Stephen)
   </section>
 
   <section>
     <h3>JavaScript</h3>
-    <pre class="fragment fade-in" data-fragment-index="2" style="font-size: 70%;width: 90%;">
-        <code class="javascript" data-trim data-noescape>
+    <pre class="fragment fade-in" data-fragment-index="2" style="font-size: 60%;width: 100%;"><code class="javascript" data-trim data-noescape>
         s=&gt;"Hi"+s.slice(3)+", I'm J"+process.argv[0].slice(6,15)+"!"
-        </code>
-    </pre>
+        </code></pre>
     (Author: Johan du Toit)
   </section>
 
   <section>
     <h3>Java</h3>
-    <pre class="fragment fade-in" data-fragment-index="2" style="font-size: 70%;width: 90%;">
-        <code class="java" data-trim data-noescape>
+    <pre class="fragment fade-in" data-fragment-index="2" style="font-size: 70%;width: 90%;"><code class="java" data-trim data-noescape>
         s-&gt;"Hi"+s.substring(3)+", I'm Java!"
-        </code>
-    </pre>
+        </code></pre>
     (Author: Kevin Cruijssen)
   </section>
 
   <section>
     <h3>Ruby</h3>
-    <pre class="fragment fade-in" data-fragment-index="2" style="font-size: 70%;width: 90%;">
-        <code class="ruby" data-trim data-noescape>
+    <pre class="fragment fade-in" data-fragment-index="2" style="font-size: 70%;width: 90%;"><code class="ruby" data-trim data-noescape>
         ~/ /;$_="Hi #$', I'm Ruby!"
-        </code>
-    </pre>
+        </code></pre>
     (Author: Value Ink)
   </section>
 
   <section>
     <h3>Perl 6</h3>
-    <pre class="fragment fade-in" data-fragment-index="2" style="font-size: 70%;width: 90%;">
-        <code class="perl" data-trim data-noescape>
+    <pre class="fragment fade-in" data-fragment-index="2" style="font-size: 70%;width: 90%;"><code class="perl" data-trim data-noescape>
         {S/.../Hi/~", I'm Perl 6!"}
-        </code>
-    </pre>
+        </code></pre>
     (Author: Jo King)
   </section>
 
   <section>
     <h3>Pyth</h3>
-    <pre class="fragment fade-in" data-fragment-index="2" style="font-size: 70%;width: 90%;">
-        <code class="perl" data-trim data-noescape>
+    <pre class="fragment fade-in" data-fragment-index="2" style="font-size: 70%;width: 90%;"><code class="perl" data-trim data-noescape>
         ++"Hi"&lt;z3", I'm Pyth!
-        </code>
-    </pre>
+        </code></pre>
     (Author: Ian Pringle)
   </section>
 
   <section>
     <h3>Canvas</h3>
-    <pre class="fragment fade-in" data-fragment-index="2" style="font-size: 70%;width: 90%;">
-        <code class="perl" data-trim data-noescape>
+    <pre class="fragment fade-in" data-fragment-index="2" style="font-size: 70%;width: 90%;"><code class="perl" data-trim data-noescape>
         ｊｊｊHiŗ, I'm Canvas!
-        </code>
-    </pre>
+        </code></pre>
     (Author: dzaima)
   </section>
 
   <section>
     <h3>Befunge-93</h3>
-    <pre class="fragment fade-in" data-fragment-index="2" style="font-size: 70%;width: 90%;">
-        <code class="perl" data-trim data-noescape>
+    <pre class="fragment fade-in" data-fragment-index="2" style="font-size: 70%;width: 90%;"><code class="perl" data-trim data-noescape>
         "iH",,~~~&lt;~# :1+#,_0"!39-egnufeB m'I ,"&lt;:#,_@
-        </code>
-    </pre>
+        </code></pre>
     (Author: negative seven)
   </section>
 
   <section>
     <h3>05AB1E</h3>
-    <pre class="fragment fade-in" data-fragment-index="2" style="font-size: 70%;width: 90%;">
-        <code class="perl" data-trim data-noescape>
+    <pre class="fragment fade-in" data-fragment-index="2" style="font-size: 70%;width: 90%;"><code class="perl" data-trim data-noescape>
         ',«#À„Hiš"05AB1E!"ªðý
-        </code>
-    </pre>
+        </code></pre>
     (Author: Emigna)
   </section>
 
   <section>
     <h3>J</h3>
-    <pre class="fragment fade-in" data-fragment-index="2" style="font-size: 70%;width: 90%;">
-        <code class="perl" data-trim data-noescape>
+    <pre class="fragment fade-in" data-fragment-index="2" style="font-size: 70%;width: 90%;"><code class="perl" data-trim data-noescape>
         ', I''m J!',~'Hi',3}.]
-        </code>
-    </pre>
+        </code></pre>
     (Author: Jonah)
   </section>
 
   <section>
     <h3>Jelly</h3>
-    <pre class="fragment fade-in" data-fragment-index="2" style="font-size: 70%;width: 90%;">
-        <code class="perl" data-trim data-noescape>
+    <pre class="fragment fade-in" data-fragment-index="2" style="font-size: 70%;width: 90%;"><code class="perl" data-trim data-noescape>
         ṫ4;“'ṫṗḶ/÷!Ṗ»⁾Hi;
-        </code>
-    </pre>
+        </code></pre>
     (Author: Nick Kennedy)
   </section>
 
   <section>
     <h3>Brainfuck</h3>
-    <pre class="fragment fade-in" data-fragment-index="2" style="font-size: 70%;width: 90%;">
-        <code class="perl" data-trim data-noescape>
-        ,-.+&gt;,&gt;,----.++++&gt;,.&gt;,[.,]&lt;&lt;&lt;+++++.-----&gt;&gt;.[&lt;]&gt;[.&gt;]&lt;[-&gt;+++&lt;]&gt;++.[---&gt;+&lt;]&gt;----.+++[-&gt;+++&lt;]&gt;++.++++++++.+++++.--------.-[---&gt;+&lt;]&gt;--.+[-&gt;+++&lt;]&gt;+.++++++++.+[++&gt;---&lt;]&gt;-.
-        </code>
-    </pre>
+    <pre class="fragment fade-in" data-fragment-index="2" style="font-size: 70%;width: 90%;"><code class="perl" data-trim data-noescape>
+        ,-.+&gt;,&gt;,----.++++&gt;,.&gt;,[.,]&lt;&lt;&lt;+++++.
+        -----&gt;&gt;.[&lt;]&gt;[.&gt;]&lt;[-&gt;+++&lt;]&gt;++.
+        [---&gt;+&lt;]&gt;----.+++[-&gt;+++&lt;]&gt;++.++++++++.
+        +++++.--------.-[---&gt;+&lt;]&gt;--.+[-&gt;+++&lt;]&gt;+.
+        ++++++++.+[++&gt;---&lt;]&gt;-.
+        </code></pre>
     (Author: cardboard_box)
   </section>
 
   <section>
     <h3>V</h3>
-    <pre class="fragment fade-in" data-fragment-index="2" style="font-size: 70%;width: 90%;">
-        <code class="perl" data-trim data-noescape>
+    <pre class="fragment fade-in" data-fragment-index="2" style="font-size: 70%;width: 90%;"><code class="perl" data-trim data-noescape>
         cEHi<esc>A, <C-r>" V!
-        </code>
-    </pre>
+        </code></pre>
     (Author: Candy Gumdrop)
   </section>
 
   <section>
     <h3>Whitespace</h3>
-    <pre class="fragment fade-in" data-fragment-index="2" style="font-size: 70%;width: 90%;">
-        <code class="perl" data-trim data-noescape>
+    <pre class="fragment fade-in" data-fragment-index="2" style="font-size: 50%;width: 90%;"><code class="perl" data-trim data-noescape>
         [S S S T    S S T   S S S N
-_Push_72_H][T   N
-S S _Print_as_character][S S S T    T   S T S S T   N
-_Push_105_i][T  N
-S S _Print_as_character][S S S N
-_Push_0][S N
-S _Duplicate_0][S N
-S _Duplicate_0][T   N
-T   S _Read_STDIN_as_character][T   N
-T   S _Read_STDIN_as_character][T   N
-T   S _Read_STDIN_as_character][N
-S S N
-_Create_Label_INPUT_LOOP][S S S N
-_Push_0][S N
-S _Duplicate_0][T   N
-T   S _Read_STDIN_as_character][T   T   T   _Retrieve][S N
-S _Duplicate_input][S S S T S T S N
-_Push_10][T S S T   _Subtract][N
-T   S S N
-_If_0_Jump_to_Label_TRAILING][T N
-S S _Print_as_character][N
-S N
-N
-_Jump_to_Label_INPUT_LOOP][N
-S S S N
-_Create_Label_TRAILING][S N
-N
-_Discard_top][S S T T   S S S T S T N
-_Push_-69_!][S S T  T   N
-_Push_-1_e][S S T   T   T   N
-_Push_-3_c][S S T   T   S T N
-_Push_-5_a][S S S T S T S N
-_Push_10_p][S S S T T   S T N
-_Push_13_s][S S T   T   N
-_Push_-1_e][S S S T T   T   S N
-_Push_14_t][S S S T T   N
-_Push_3_i][S S S T  S N
-_Push_2_h][S S T    T   T   T   T   N
-_Push_-15_W][S S T  T   S S S T T   S N
-_Push_-70_space][S S S T    T   T   N
-_Push_7_m][S S T    T   T   T   T   T   T   N
-_Push_-63_'][S S T  T   T   T   S T N
-_Push_-29_I][S T    S S T   T   N
-_Copy_0-based_3rd_-70_space][S S T  T   T   T   S T S N
-_Push_-58_,][N
-S S T   N
-_Create_Label_PRINT_TRAILING_LOOP][S S S T  T   S S T   T   S N
-_Push_102][T    S S S _Add][T   N
-S S _Print_as_character][N
-S N
-T   N
-_Jump_to_Label_PRINT_TRAILING_LOOP]
-        </code>
-    </pre>
+        _Push_72_H][T   N
+        S S _Print_as_character][S S S T    T   S T S S T   N
+        _Push_105_i][T  N
+        S S _Print_as_character][S S S N
+        _Push_0][S N
+        S _Duplicate_0][S N
+        S _Duplicate_0][T   N
+        T   S _Read_STDIN_as_character][T   N
+        T   S _Read_STDIN_as_character][T   N
+        T   S _Read_STDIN_as_character][N
+        S S N
+        _Create_Label_INPUT_LOOP][S S S N
+        _Push_0][S N
+        S _Duplicate_0][T   N
+        T   S _Read_STDIN_as_character][T   T   T   _Retrieve][S N
+        S _Duplicate_input][S S S T S T S N
+        _Push_10][T S S T   _Subtract][N
+        T   S S N
+        _If_0_Jump_to_Label_TRAILING][T N
+        S S _Print_as_character][N
+        S N
+        N
+        _Jump_to_Label_INPUT_LOOP][N
+        S S S N
+        _Create_Label_TRAILING][S N
+        N
+        _Discard_top][S S T T   S S S T S T N
+        _Push_-69_!][S S T  T   N
+        _Push_-1_e][S S T   T   T   N
+        _Push_-3_c][S S T   T   S T N
+        _Push_-5_a][S S S T S T S N
+        _Push_10_p][S S S T T   S T N
+        _Push_13_s][S S T   T   N
+        _Push_-1_e][S S S T T   T   S N
+        _Push_14_t][S S S T T   N
+        _Push_3_i][S S S T  S N
+        _Push_2_h][S S T    T   T   T   T   N
+        _Push_-15_W][S S T  T   S S S T T   S N
+        _Push_-70_space][S S S T    T   T   N
+        _Push_7_m][S S T    T   T   T   T   T   T   N
+        _Push_-63_'][S S T  T   T   T   S T N
+        _Push_-29_I][S T    S S T   T   N
+        _Copy_0-based_3rd_-70_space][S S T  T   T   T   S T S N
+        _Push_-58_,][N
+        S S T   N
+        _Create_Label_PRINT_TRAILING_LOOP][S S S T  T   S S T   T   S N
+        _Push_102][T    S S S _Add][T   N
+        S S _Print_as_character][N
+        S N
+        T   N
+        _Jump_to_Label_PRINT_TRAILING_LOOP]
+        </code></pre>
     (Author: Kevin Crujissen)
+  </section>
+
+  <section>
+    <p style="font-size: 130%;">
+    ¯\_(ツ)_/¯
+    </p>
+    <h3 class="fragment fade-in" data-fragment-index="2">What's the point?</h3>
   </section>
 
   <section>
@@ -611,8 +584,9 @@ _Jump_to_Label_PRINT_TRAILING_LOOP]
     </div>
     <div id="right70">
         <p style="margin-right: 10%; font-size: 90%;">
-            <a href="https://maureira.xyz">maureira.xyz</a><br/>
+            <a href="https://codegolf.stackexchange.com">codegolf.stackexchange.com</a><br/>
             <br/>
+            <a href="https://maureira.xyz">maureira.xyz</a><br/>
            @cmaureir<br/>
         <img src="img/twitter.png" style="background: rgba(0,0,0,0);height: 50px; border: 0px;">
         <img src="img/github_white.png"  style="background: rgba(0,0,0,0);height: 50px; border: 0px;">
@@ -652,6 +626,7 @@ _Jump_to_Label_PRINT_TRAILING_LOOP]
             }
         },
         { src: 'plugin/search/search.js', async: true },
+        { src: 'plugin/math/math.js', async: true },
         { src: 'plugin/zoom-js/zoom.js', async: true },
         { src: 'plugin/notes/notes.js', async: true }
       ]
